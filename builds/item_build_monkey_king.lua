@@ -3,7 +3,9 @@ X = {}
 X["items"] = { 
 		-- starting items
                 "item_tango",
-		"item_poor_mans_shield",
+		"item_stout_shield",
+		"item_slippers",
+		"item_slippers",
 		-- early-game items
 		"item_boots",
 		"item_ring_of_basilius",
