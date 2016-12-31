@@ -1,8 +1,20 @@
 -- http://dota2.gamepedia.com/Monkey_King
 X = {}
 X["items"] = { 
+		-- starting items
                 "item_tango",
-		"item_poor_mans_shield"
+		"item_poor_mans_shield",
+		-- early-game items
+		"item_boots",
+		"item_ring_of_basilius",
+		"item_phase_boots",
+		"item_ring_of_aquila",
+		"item_blight_stone",
+		"item_echo_sabre",
+		"item_desolator"
+		-- core items
+		-- Black King Bar
+		-- Eye of Skadi
 	};
 
 -- Set up Skill build
