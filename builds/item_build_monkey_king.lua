@@ -1,3 +1,4 @@
+-- http://dota2.gamepedia.com/Monkey_King
 X = {}
 --[[ warning if meepo does not have an item other than 
 brown boots / power treads at any time he will think he 
@@ -28,11 +29,11 @@ X["items"] = {
 			};
 
 -- Set up Skill build
-local SKILL_Q = "puck_illusory_orb";
-local SKILL_W = "puck_waning_rift";
-local SKILL_E = "puck_phase_shift";
-local SKILL_R = "puck_dream_coil";    
-local SKILL_D = "puck_ethereal_jaunt";    -- no levels
+local SKILL_Q = "monkey_king_boundless_strike";
+local SKILL_W = "monkey_king_tree_dance";
+local SKILL_E = "monkey_king_jingu_mastery";
+local SKILL_R = "monkey_king_mischief";    
+local SKILL_D = "monkey_king_primal_spring_early";    -- no levels
 
 
 local ABILITY1 = "special_bonus_intelligence_8"
@@ -46,9 +47,9 @@ local ABILITY8 = "special_bonus_unique_puck"
 
 --use -1 for levels that shouldn't level a skill
 X["skills"] = {
-    SKILL_E,    SKILL_Q,    SKILL_W,    SKILL_Q,    SKILL_W,
+    SKILL_E,    SKILL_Q,    SKILL_E,    SKILL_W,    SKILL_E,
     SKILL_R,    SKILL_E,    SKILL_Q,    SKILL_Q,    "-1",--"special_bonus_intelligence_8",
-    SKILL_W,    SKILL_W,    SKILL_E,    SKILL_E,    "-1",--"special_bonus_attack_damage_40",
+    SKILL_Q,    SKILL_W,    SKILL_W,    SKILL_W,    "-1",--"special_bonus_attack_damage_40",
     SKILL_R,    "-1",       SKILL_R,    ABILITY2,   ABILITY3,--"special_bonus_spell_amplify_8",
     ABILITY5,   ABILITY7,   "-1",       "-1",       "-1",--"special_bonus_gold_income_50"
 };
