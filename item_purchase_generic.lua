@@ -1,3 +1,4 @@
+require("bots/utility")
 local utils = require("bots/util")
 local build = require("bots/builds/item_build_" .. string.gsub(GetBot():GetUnitName(), "npc_dota_hero_", ""))
 if build == "NOT IMPLEMENTED" then return end
