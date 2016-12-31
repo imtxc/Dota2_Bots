@@ -1,1 +1,2 @@
-** add hero Sun Wukong
+*** add hero Sun Wukong
+*** hold the backpack

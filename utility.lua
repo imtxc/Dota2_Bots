@@ -12,6 +12,7 @@ end
 
 
 function utility_buy_tpscroll(npcBot)
+	-- TODO if I have a boots of travel, then I don't need a tp.
 
 	local iScrollCount = 0;
 
@@ -33,6 +34,10 @@ function utility_buy_tpscroll(npcBot)
 		npcBot:Action_PurchaseItem("item_tpscroll");
 	end
 
+end
+
+function hold_backpack(npcBot)
+	-- TODO
 end
     
 
