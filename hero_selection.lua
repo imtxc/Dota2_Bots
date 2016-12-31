@@ -1,10 +1,6 @@
 -- mandate that the bots will pick these heroes - for testing purposes
 requiredHeroes = {
-	'npc_dota_hero_monkey_king',
-	'npc_dota_hero_meepo'
-	--'npc_dota_hero_bane',
-	--'npc_dota_hero_lina',
-	--'npc_dota_hero_nevermore'
+	'npc_dota_hero_monkey_king'
 };
 
 -- change quickMode to true for testing
