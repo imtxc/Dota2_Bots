@@ -53,7 +53,7 @@ function ItemPurchaseThink()
 
     local iScrollCount = 0;
 
-    utility.utility_buy_tpscroll(npcBot);
+    utility.utility_buy_tpscroll(npcBot, 2);
     
     -- check if real meepo
     if( GetBot():GetUnitName() == "npc_dota_hero_meepo") then
