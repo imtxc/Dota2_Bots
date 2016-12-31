@@ -1,5 +1,5 @@
-local utils = require(GetScriptDirectory() .. "/util")
-require( GetScriptDirectory().."/jungle_status" )
+local utils = require("bots/util")
+require("bots/jungle_status" )
 --print("Farm mode instantiated")
 ----------------------------------------------------------------------------------------------------
 

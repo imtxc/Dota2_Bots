@@ -1,5 +1,5 @@
 local X = {}
-local vec = require(GetScriptDirectory().."/Vectors")
+local vec = require("bots/Vectors")
 X.tableNeutralCamps = vec["tableNeutralCamps"]  -- constant - shouldn't be modified runtime use X.jungle instead
 X.tableRuneSpawns = vec["tableRuneSpawns"]
 ----------------------------------------------------------------------------------------------------

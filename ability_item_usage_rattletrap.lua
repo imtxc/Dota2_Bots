@@ -1,7 +1,7 @@
-local utils = require(GetScriptDirectory() .. "/util")
-require( GetScriptDirectory().."/enemy_status" )
+local utils = require("bots/util")
+require("bots/enemy_status" )
 
-local inspect = require(GetScriptDirectory() .. "/inspect")
+local inspect = require("bots/inspect")
 ----------------------------------------------------------------------------------------------------
 --rattletrap_battery_assault
 --rattletrap_hookshot

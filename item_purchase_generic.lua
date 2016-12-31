@@ -1,5 +1,5 @@
-local utils = require(GetScriptDirectory() .. "/util")
-local build = require(GetScriptDirectory() .. "/builds/item_build_" .. string.gsub(GetBot():GetUnitName(), "npc_dota_hero_", ""))
+local utils = require("bots/util")
+local build = require("bots/builds/item_build_" .. string.gsub(GetBot():GetUnitName(), "npc_dota_hero_", ""))
 if build == "NOT IMPLEMENTED" then return end
 ----------------------------------------------------------------------------------------------------
 

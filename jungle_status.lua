@@ -1,7 +1,7 @@
 _G._savedEnv = getfenv()
 module( "jungle_status", package.seeall )
 
-local utils = require(GetScriptDirectory() .. "/util")
+local utils = require("bots/util")
 local isJungleFresh = true
 local jungle = utils.deepcopy(utils.tableNeutralCamps)
 ----------------------------------------------------------------------------------------------------
